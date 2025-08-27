@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
 import heroImage from "@/assets/hero-bg.jpg";
-import resume from "@/resume/ShivaGundeti-Resume (1).pdf"
+
 export const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -110,7 +110,7 @@ export const HeroSection = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a
-              href={resume}
+              href="https://drive.google.com/file/d/1ZDLduKWt0mqs9h6jKaTwxLzb1yHaJT1X/view"
               download
               className="p-3 rounded-full border border-muted-foreground/30 hover:bg-primary/10 hover:text-primary transition-all duration-300"
             >
