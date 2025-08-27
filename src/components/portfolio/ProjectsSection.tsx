@@ -5,12 +5,13 @@ import ecommerceImage from "@/assets/project-ecommerce.jpg";
 import fintrustImage from "@/assets/project-fintrust.png";
 import detectionImage from "@/assets/project-detection.jpg";
 import thinkboardImage from "@/assets/project-thinkboard.png";
+import bloggerImage from "@/assets/blogger.png";
 import authImage from "@/assets/project-auth.jpg";
 import { Link } from "react-router-dom";
 
 const projects = [
   {
-    id: 2,
+    id: 1,
 title: "FinTrust - Banking App",
 description: "“Developed FinTrust banking app with secure JWT transactions and AI chat assistant using Gemini API.",
 image: fintrustImage,
@@ -30,8 +31,48 @@ status: "Completed",
 link: "https://fintrust-3q8n.onrender.com/"
 
   },
-  {
+   {
     id: 2,
+    title: "Real-Time Object Detection",
+    description: "AI-powered web application using TensorFlow.js for real-time object detection through webcam.",
+    image: detectionImage,
+    tech: ["React.js", "TensorFlow.js", "COCO-SSD", "WebRTC"],
+    features: [
+      "Real-time webcam integration",
+      "Object detection using COCO-SSD model",
+      "Dynamic object name display",
+      "Bounding box rendering",
+      "Performance optimization",
+      "Cross-browser compatibility",
+      "Responsive design"
+    ],
+    category: "AI & Frontend",
+    status: "Completed",
+    link:"https://fintrust-3q8n.onrender.com/"
+  },
+  {
+  id: 3,
+  title: "Blogger Platform",
+  description: "Full-stack blogging platform using Next.js and MongoDB for creating, editing, and managing blog posts.",
+  image: bloggerImage, // replace with your blogger project image
+  tech: ["Next.js", "React.js", "MongoDB", "Tailwind CSS", "Node.js", "Express.js"],
+  features: [
+    "User authentication and role-based access",
+    "Create, edit, delete, and categorize blog posts",
+    "Profile management for authors and readers",
+    "Commenting and interaction system",
+    "Responsive and intuitive UI",
+    "Dynamic category and tag system",
+    "Secure MongoDB data storage"
+  ],
+  category: "Full-Stack Web App",
+  status: "Completed",
+  link: "https://blogger-u9lt.vercel.app/" 
+}
+
+,
+  {
+    id: 4,
     title: "E-commerce Full-Stack App",
     description: "E-commerce platform with user authentication, role-based dashboards, and complete CRUD operations.",
     image: ecommerceImage,
@@ -51,27 +92,8 @@ link: "https://fintrust-3q8n.onrender.com/"
     
   },
   
-  {
-    id: 3,
-    title: "Real-Time Object Detection",
-    description: "AI-powered web application using TensorFlow.js for real-time object detection through webcam.",
-    image: detectionImage,
-    tech: ["React.js", "TensorFlow.js", "COCO-SSD", "WebRTC"],
-    features: [
-      "Real-time webcam integration",
-      "Object detection using COCO-SSD model",
-      "Dynamic object name display",
-      "Bounding box rendering",
-      "Performance optimization",
-      "Cross-browser compatibility",
-      "Responsive design"
-    ],
-    category: "AI & Frontend",
-    status: "Completed",
-    link:"https://fintrust-3q8n.onrender.com/"
-  },
-  {
-    id: 3,
+   {
+    id: 5,
 title: "Thinkboard",
 description: "A collaborative MERN stack web application for brainstorming and organizing ideas with authentication and secure user management.",
 image: thinkboardImage, // 🖼️ replace with your Thinkboard screenshot
@@ -87,9 +109,11 @@ features: [
 ],
 category: "Full Stack (MERN)",
 status: "In Progress",
-link: "https://fintrust-3q8n.onrender.com/"
+link: "https://thinkboard-1-9vbx.onrender.com/"
 
   }
+ 
+ 
 ];
 
 export const ProjectsSection = () => {
