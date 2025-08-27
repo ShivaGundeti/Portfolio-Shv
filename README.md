@@ -32,10 +32,9 @@ AI-powered app using **TensorFlow.js** for object detection through webcam.
 …and more on my portfolio!  
 
 ## 📫 Connect With Me  
-- 🌐 Portfolio: [your-portfolio-link](#)  
-- 💼 LinkedIn: [your-linkedin-profile](#)  
-- 📧 Email: [your-email](#)  
-- 🐙 GitHub: [your-github-profile](#)  
+- 🌐 Portfolio: https://portfolio-shv.vercel.app/ 
+- 💼 LinkedIn: https://www.linkedin.com/in/gundeti-shiva-kumar-238330350/  
+- 📧 Email: shivagundeti1403@gmail.com
 
 ---
 
