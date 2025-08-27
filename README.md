@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# 🌟 Shiva Kumar Gundeti | Web Developer  
 
-## Project info
+Hi! 👋 I’m **Shiva Kumar Gundeti**, a passionate **Front-End & Full-Stack Developer** with a love for building modern, scalable, and user-friendly web applications.  
+I specialize in **React, Next.js, Firebase, MongoDB, and Tailwind CSS**, and I’m currently leveling up my skills in **Backend Development, Cloud, and AI-powered applications**.  
 
-**URL**: https://lovable.dev/projects/c1160cb0-d034-4af4-9a4c-253dfe6e0719
+---
 
-## How can I edit this code?
+## 🚀 Skills  
+- **Frontend:** HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS  
+- **Backend:** Node.js, Express.js, Firebase, MongoDB  
+- **Authentication:** Firebase Auth, JWT, Auth.js (NextAuth)  
+- **Databases:** MongoDB, Firebase Firestore, SQL (basics)  
+- **Other Tools:** Git, GitHub, Docker (learning), Cloudinary, REST APIs  
+- **Exploring:** TypeScript, System Design, Cloud (AWS), LangChain, AI APIs  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 💼 Projects  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c1160cb0-d034-4af4-9a4c-253dfe6e0719) and start prompting.
+### 🔹 [Fintrust - Banking App](#)
+A secure digital banking application with **authentication, role-based dashboards, and transactions**.  
+*Tech:* Next.js, Firebase, Auth.js, Tailwind CSS  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🔹 [E-Commerce Platform](#)
+An e-commerce website with **image uploads (Cloudinary), product management, and role-based access**.  
+*Tech:* React, Firebase, Firestore, Cloudinary  
 
-**Use your preferred IDE**
+### 🔹 [Real-Time Object Detection](#)
+AI-powered app using **TensorFlow.js** for object detection through webcam.  
+*Tech:* React.js, TensorFlow.js  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+…and more on my portfolio!  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📫 Connect With Me  
+- 🌐 Portfolio: [your-portfolio-link](#)  
+- 💼 LinkedIn: [your-linkedin-profile](#)  
+- 📧 Email: [your-email](#)  
+- 🐙 GitHub: [your-github-profile](#)  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c1160cb0-d034-4af4-9a4c-253dfe6e0719) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+⭐️ *“Code is like art — every project is a chance to create something beautiful and useful.”*  
