@@ -74,7 +74,7 @@ export const PERSONAL_INFO = {
     repositories: "https://github.com/ShivaGundeti?tab=repositories",
     linkedin: "https://www.linkedin.com/in/gundeti-shiva-kumar-238330350/",
     leetcode: "https://leetcode.com/u/Shiva_Gundeti/",
-    resume: "https://drive.google.com/file/d/1bKOjwkTGxkY2fAh9CiBubgJvoziEFD80/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/11WS3K34jRRRVyjwm6PpDPzB2Ck3n35qd/view?usp=sharing",
   },
 };
 
@@ -149,7 +149,7 @@ export const PROJECTS: Project[] = [
     ],
     metrics: "Sub-10ms redirect latency with Redis caching layer",
     githubUrl: "https://github.com/ShivaGundeti?tab=repositories",
-    liveUrl: "https://github.com/ShivaGundeti?tab=repositories",
+    liveUrl: "http://16.171.3.40:3000/login",
   },
   {
     id: "booknest",

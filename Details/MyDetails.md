@@ -46,6 +46,7 @@ PROJECTS
 
 URL SHORTENER
 Next.js | FastAPI | PostgreSQL | Prisma | Redis | Docker | Nginx | AWS EC2 | GitHub Actions
+Live Demo: http://16.171.3.40:3000/login
 
 • Built a full-stack URL shortening application with a FastAPI backend and PostgreSQL database using Prisma ORM for persistent URL management.
 
