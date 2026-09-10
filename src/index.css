@@ -1,68 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Portfolio Design System - Modern, Professional, Aesthetic */
-
 @layer base {
   :root {
-    /* Core Colors - Dark Theme Primary */
-    --background: 220 27% 4%;
-    --foreground: 220 9% 95%;
-    
-    /* Surface Colors */
-    --card: 220 23% 6%;
-    --card-foreground: 220 9% 95%;
-    --popover: 220 23% 6%;
-    --popover-foreground: 220 9% 95%;
-    
-    /* Brand Colors - Purple/Blue Gradient Theme */
-    --primary: 250 84% 65%;
-    --primary-foreground: 220 27% 4%;
-    --primary-glow: 280 100% 70%;
-    
-    --secondary: 220 15% 12%;
-    --secondary-foreground: 220 9% 95%;
-    
-    --muted: 220 13% 10%;
-    --muted-foreground: 220 9% 65%;
-    
-    --accent: 250 84% 65%;
-    --accent-foreground: 220 27% 4%;
-    
-    /* Status Colors */
+    --background: 222 47% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 6%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 6%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Creative, Thoughtful & Electric Aurora Palette (No Yellow!) */
+    --primary: 239 84% 67%; /* Electric Indigo */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 199 89% 48%; /* Sky Cyan */
+
+    --secondary: 222 35% 12%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 222 30% 11%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 265 85% 68%; /* Radiant Violet */
+    --accent-foreground: 0 0% 100%;
+
     --destructive: 0 84% 60%;
-    --destructive-foreground: 220 9% 95%;
-    --success: 142 76% 36%;
-    --warning: 38 92% 50%;
-    
-    /* UI Elements */
-    --border: 220 13% 15%;
-    --input: 220 13% 15%;
-    --ring: 250 84% 65%;
-    --radius: 0.75rem;
-    
-    /* Glass Effect */
-    --glass-bg: 220 23% 6% / 0.8;
-    --glass-border: 220 13% 25% / 0.3;
-    
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(250 84% 65%), hsl(280 100% 70%));
-    --gradient-secondary: linear-gradient(135deg, hsl(220 23% 6%), hsl(220 13% 10%));
-    --gradient-glow: linear-gradient(135deg, hsl(250 84% 65% / 0.2), hsl(280 100% 70% / 0.2));
-    
-    /* Shadows */
-    --shadow-sm: 0 1px 2px hsl(220 27% 4% / 0.1);
-    --shadow-md: 0 4px 6px hsl(220 27% 4% / 0.1), 0 2px 4px hsl(220 27% 4% / 0.06);
-    --shadow-lg: 0 10px 15px hsl(220 27% 4% / 0.1), 0 4px 6px hsl(220 27% 4% / 0.05);
-    --shadow-glow: 0 0 40px hsl(250 84% 65% / 0.3);
-    --shadow-glow-strong: 0 0 60px hsl(250 84% 65% / 0.5);
-    
-    /* Animations */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 25% 14%;
+    --input: 222 25% 14%;
+    --ring: 239 84% 67%;
+    --radius: 1rem;
   }
 }
 
@@ -70,103 +43,109 @@
   * {
     @apply border-border;
   }
-  
-  body {
-    @apply bg-background text-foreground font-inter;
-    background: hsl(var(--background));
-    background-image: 
-      radial-gradient(circle at 20% 80%, hsl(250 84% 65% / 0.05) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, hsl(280 100% 70% / 0.05) 0%, transparent 50%);
-    min-height: 100vh;
-  }
-  
+
   html {
     scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-[#07090e] text-foreground;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #07090e;
+    /* Sleek Midnight Obsidian & Electric Aurora Atmosphere */
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(99, 102, 241, 0.16), transparent 70%),
+      radial-gradient(circle 650px at 85% 15%, rgba(168, 85, 247, 0.10), transparent 60%),
+      radial-gradient(circle 600px at 15% 65%, rgba(56, 189, 248, 0.08), transparent 60%),
+      radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 100% 100%, 36px 36px;
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: rgba(99, 102, 241, 0.35);
+    color: #ffffff;
+  }
+
+  /* Custom Sleek Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #07090e;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1e2433;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333d54;
   }
 }
 
 @layer components {
-  /* Glass Morphism */
-  .glass {
-    @apply backdrop-blur-xl bg-card/80 border border-white/10;
-    box-shadow: var(--shadow-lg);
+  /* Ultra-Crisp Frosted Glass Card */
+  .glass-card {
+    background: linear-gradient(165deg, rgba(16, 21, 33, 0.72) 0%, rgba(10, 13, 22, 0.82) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 
+      0 12px 32px -8px rgba(0, 0, 0, 0.65),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   }
-  
-  .glass-strong {
-    @apply backdrop-blur-2xl bg-card/90 border border-white/20;
-    box-shadow: var(--shadow-lg);
+
+  .glass-card:hover {
+    border-color: rgba(99, 102, 241, 0.35);
+    box-shadow: 
+      0 20px 48px -12px rgba(99, 102, 241, 0.16),
+      inset 0 1px 0 rgba(255, 255, 255, 0.15);
   }
-  
-  /* Gradient Text */
-  .gradient-text {
-    background: var(--gradient-primary);
+
+  /* Sleek Electric Aurora Gradients */
+  .gradient-text-accent {
+    background: linear-gradient(135deg, #38bdf8 0%, #818cf8 45%, #c084fc 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
-  
-  /* Glow Effects */
-  .glow {
-    box-shadow: var(--shadow-glow);
-  }
-  
-  .glow-strong {
-    box-shadow: var(--shadow-glow-strong);
-  }
-  
-  /* Animations */
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-  
-  .animate-glow {
-    animation: glow 3s ease-in-out infinite alternate;
-  }
-  
-  .animate-slide-up {
-    animation: slideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  }
-  
-  .animate-slide-in-left {
-    animation: slideInLeft 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  }
-  
-  .animate-slide-in-right {
-    animation: slideInRight 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  }
-}
 
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-}
-
-@keyframes glow {
-  from { box-shadow: 0 0 20px hsl(250 84% 65% / 0.3); }
-  to { box-shadow: 0 0 40px hsl(250 84% 65% / 0.6); }
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideInLeft {
-  from { opacity: 0; transform: translateX(-30px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@keyframes slideInRight {
-  from { opacity: 0; transform: translateX(30px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-@layer base {
-  * {
-    @apply border-border;
+  .gradient-text-electric {
+    background: linear-gradient(135deg, #ffffff 10%, #93c5fd 50%, #c084fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
-  body {
-    @apply bg-background text-foreground;
+  .gradient-text-cyan {
+    background: linear-gradient(135deg, #ffffff 0%, #38bdf8 60%, #0284c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Creative High-Performance Button */
+  .btn-lovable {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 55%, #06b6d4 100%);
+    color: #ffffff;
+    box-shadow: 0 8px 24px -4px rgba(99, 102, 241, 0.4);
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-lovable:hover {
+    box-shadow: 0 14px 32px -4px rgba(99, 102, 241, 0.55);
+    transform: translateY(-2px) scale(1.015);
+  }
+
+  /* Ambient glow */
+  .glow-electric {
+    box-shadow: 0 0 45px rgba(99, 102, 241, 0.25);
   }
 }
